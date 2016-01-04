@@ -1,10 +1,25 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
-  background-image: url(linedpaper.png);
+  background-image: url(Luna.jpg);
+  background-size: 1040px;
   background-repeat: repeat;
 }
 #wrapper {
   width: 960px;
   margin: 20px auto 20px auto;
+}
+h1 {
+	color: rgb(180,10,51);
+	font-weight: 600;
+	/* "Command+/" will help you write commands*/
+}
+h4{
+	color: green;
+}
+#connections {
+	color: purple;
+}
+.unicorn{
+	color: red;
 }
