@@ -71,6 +71,30 @@ img{
 	opacity: 1;
 }
 
+.text {
+    position: relative;
+    bottom: 50px;
+    left: 0px;
+    background: rgba(255,255,255,0.8);
+    text-indent: 2px;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    visibility: hidden;
+}
+h5, a {
+    margin-left: 10px;
+    margin-right: 0px;
+}
+user agent stylesheetp {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+
 .Box1 {
   margin-top:5px;
   margin-bottom:5px;
@@ -90,8 +114,10 @@ img{
   list-style:none;
       
 }
+
 .Box1 ul li:hover {
-  border: 1px solid orange;
+  border: 1px solid red;
+  text-align: center;
 }
 
 .Box1 ul li:hover .text {
