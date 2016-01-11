@@ -1,7 +1,7 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
-  background-image: url("background2.jpg");
+  background-image: url("background7.jpg");
   background-size: 100% 100%;
   background-repeat: repeat;
 }
@@ -17,7 +17,7 @@ h1 {
 	/* "Command+/" will help you write commands*/
 }
 h4{
-	color: red;
+	color: purple;
 	margin-left: 10px;
 	margin-right: 10px;
 }
@@ -65,7 +65,7 @@ p{
 
 
 .unicorn{
-	color: red;
+	color: purple;
 }
 img{
 	opacity: 1;
