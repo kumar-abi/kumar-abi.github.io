@@ -1,0 +1,125 @@
+body {
+  font-family: 'helvetica neue', arial, sans-serif;
+  font-weight: 300;
+  background-image: url("background7.jpg");
+  background-size: 100% 100%;
+  background-repeat: repeat;
+}
+#wrapper {
+  width: 960px;
+  background: rgba(255,255,255,0.33);
+  margin: 0px auto 0px auto;
+}
+h1 {
+	color: rgb(140,10,51);
+	font-weight: 600;
+	font-size: 75px;
+	/* "Command+/" will help you write commands*/
+}
+h4{
+	color: purple;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+h5{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+p{
+	margin-left: 10px;
+	margin-right: 10px;	
+}
+#connections {
+	color: purple;
+}
+
+#topic{
+	font-style: bold;
+}
+
+.items img{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.item img:hover{
+	visibility: visible;
+}
+
+.label{
+	position: relative;
+	bottom: 50px;
+	left: 20px;
+}
+
+#cover 
+	{
+	text-align: center;
+	opacity: 0.75;
+	box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+	box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+	box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+	}
+
+
+.unicorn{
+	color: purple;
+}
+img{
+	opacity: 1;
+}
+
+.text {
+    position: relative;
+    bottom: 50px;
+    left: 0px;
+    background: rgba(255,255,255,0.8);
+    text-indent: 2px;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    visibility: hidden;
+}
+h5, a {
+    margin-left: 10px;
+    margin-right: 0px;
+}
+user agent stylesheetp {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+
+.Box1 {
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+.Box1{
+  color:#E59934;
+}
+
+.Box1 ul li {
+  margin:17px;
+  padding:5px;
+  width: 175px;
+  height:250px;
+  float: left;  
+  border: 1px solid darkgray;
+  list-style:none;
+      
+}
+
+.Box1 ul li:hover {
+  border: 1px solid red;
+  text-align: center;
+}
+
+.Box1 ul li:hover .text {
+  visibility: visible;
+}

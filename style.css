@@ -1,125 +1,74 @@
+.container {
+    width: 80%;
+    min-width: 760px;
+    padding-top: 0;
+    margin: 0 auto; 
+}
+
+
 body {
-  font-family: 'helvetica neue', arial, sans-serif;
-  font-weight: 300;
-  background-image: url("background7.jpg");
+  background-image: url("background.jpg");
+
   background-size: 100% 100%;
-  background-repeat: repeat;
-}
-#wrapper {
-  width: 960px;
-  background: rgba(255,255,255,0.33);
-  margin: 0px auto 0px auto;
-}
-h1 {
-	color: rgb(140,10,51);
-	font-weight: 600;
-	font-size: 75px;
-	/* "Command+/" will help you write commands*/
-}
-h4{
-	color: purple;
-	margin-left: 10px;
-	margin-right: 10px;
-}
-h5{
-	margin-left: 10px;
-	margin-right: 10px;
-}
-p{
-	margin-left: 10px;
-	margin-right: 10px;	
-}
-#connections {
-	color: purple;
+  background-repeat: no-repeat -20px 0px;
 }
 
-#topic{
-	font-style: bold;
+
+.navbar-brand {
+    float: left;
+    height: 0px;
+    padding: 0px 0px;
+    padding-right: 0px;
+    font-size: 0px;
+    line-height: 0px;
 }
 
-.items img{
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+.navbar-brand>img {
+    display: inline-flex;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.navbar ul li {
+    position:relative;
+    z-index:0;
+    margin:0 auto;
+    left:0px;
+    list-style-type:none;
 }
 
-.item img:hover{
-	visibility: visible;
+.fa{
+  position: absolute;
+  left: -90%;
+  top: 80%;
 }
 
-.label{
-	position: relative;
-	bottom: 50px;
-	left: 20px;
-}
-
-#cover 
-	{
-	text-align: center;
-	opacity: 0.75;
-	box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
-	box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
-	box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
-	}
-
-
-.unicorn{
-	color: purple;
-}
-img{
-	opacity: 1;
-}
-
-.text {
+.relative {
     position: relative;
-    bottom: 50px;
-    left: 0px;
-    background: rgba(255,255,255,0.8);
-    text-indent: 2px;
-    color: black;
-    font-style: italic;
-    font-weight: bold;
-    visibility: hidden;
-}
-h5, a {
-    margin-left: 10px;
-    margin-right: 0px;
-}
-user agent stylesheetp {
-    display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
+    left: 50px;
 }
 
-
-.Box1 {
-  margin-top:5px;
-  margin-bottom:5px;
+.dropdown ul li{
+  position: absolute;
+  left: -90%;
+  top: 80%;
 }
 
-.Box1{
-  color:#E59934;
+.element ul,li,a{
+  display: block;
+  padding: 5px 5px;
+  padding-left: 0px;
 }
 
-.Box1 ul li {
-  margin:17px;
-  padding:5px;
-  width: 175px;
-  height:250px;
-  float: left;  
-  border: 1px solid darkgray;
-  list-style:none;
-      
+.jumbotron{
+  background: rgb(255,255,255);
+  background-image: url(Dota.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:650px;
 }
 
-.Box1 ul li:hover {
-  border: 1px solid red;
-  text-align: center;
-}
-
-.Box1 ul li:hover .text {
-  visibility: visible;
+img {
+    vertical-align: middle;
 }
